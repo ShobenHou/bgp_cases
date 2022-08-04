@@ -1,0 +1,102 @@
+2022/07/29 19:34:20 BGP: socket: Address family not supported by protocol
+2022/07/29 19:34:20 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 3930
+2022/07/29 19:34:21 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:34:21 BGP: %ADJCHANGE: neighbor 2.2.2.2 Up
+2022/07/29 19:34:23 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:34:26 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:34:32 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:34:45 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:34:54 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:35:11 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:36:35 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:37:18 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:37:52 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:38:25 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:39:55 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:41:03 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:42:05 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:42:11 BGP: %NOTIFICATION: received from neighbor 2.2.2.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/29 19:42:11 BGP: %ADJCHANGE: neighbor 2.2.2.2 Down BGP Notification received
+2022/07/29 19:42:11 BGP: Terminating on signal
+2022/07/29 19:42:11 BGP: VRF 0 is to be deleted.
+2022/07/29 19:42:11 BGP: VRF 0 is to be disabled.
+2022/07/29 19:42:13 BGP: socket: Address family not supported by protocol
+2022/07/29 19:42:13 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 4330
+2022/07/29 19:42:14 BGP: stream_read_try: read failed on fd 11: Connection reset by peer
+2022/07/29 19:42:14 BGP: 3.3.3.3 [Error] bgp_read_packet error: Connection reset by peer
+2022/07/29 19:42:15 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:42:15 BGP: %ADJCHANGE: neighbor 2.2.2.2 Up
+2022/07/29 19:42:17 BGP: stream_read_try: read failed on fd 12: Connection reset by peer
+2022/07/29 19:42:17 BGP: 3.3.3.3 [Error] bgp_read_packet error: Connection reset by peer
+2022/07/29 19:42:18 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:42:23 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:42:31 BGP: %NOTIFICATION: sent to neighbor 3.3.3.3 6/7 (Cease/Connection collision resolution) 0 bytes 
+2022/07/29 19:42:31 BGP: Notification sent to neighbor 3.3.3.3:46466: type 6/7
+2022/07/29 19:42:31 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:42:43 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:42:56 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:43:23 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:44:15 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:44:50 BGP: %NOTIFICATION: received from neighbor 2.2.2.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/29 19:44:50 BGP: %ADJCHANGE: neighbor 2.2.2.2 Down BGP Notification received
+2022/07/29 19:44:50 BGP: Terminating on signal
+2022/07/29 19:44:50 BGP: VRF 0 is to be deleted.
+2022/07/29 19:44:50 BGP: VRF 0 is to be disabled.
+2022/07/29 19:44:51 BGP: socket: Address family not supported by protocol
+2022/07/29 19:44:51 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 4498
+2022/07/29 19:44:53 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:44:53 BGP: %ADJCHANGE: neighbor 2.2.2.2 Up
+2022/07/29 19:44:56 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:45:00 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:45:07 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:45:16 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:45:26 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:46:00 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 2c
+2022/07/29 19:46:58 BGP: %NOTIFICATION: received from neighbor 2.2.2.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/29 19:46:58 BGP: %ADJCHANGE: neighbor 2.2.2.2 Down BGP Notification received
+2022/07/29 19:46:58 BGP: Terminating on signal
+2022/07/29 19:46:58 BGP: VRF 0 is to be deleted.
+2022/07/29 19:46:58 BGP: VRF 0 is to be disabled.
+2022/07/29 19:47:00 BGP: socket: Address family not supported by protocol
+2022/07/29 19:47:00 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 4660
+2022/07/29 19:47:01 BGP: stream_read_try: read failed on fd 11: Connection reset by peer
+2022/07/29 19:47:01 BGP: 3.3.3.3 [Error] bgp_read_packet error: Connection reset by peer
+2022/07/29 19:47:02 BGP: %ADJCHANGE: neighbor 3.3.3.3 Up
+2022/07/29 19:47:02 BGP: %ADJCHANGE: neighbor 2.2.2.2 Up
+2022/07/29 19:48:54 BGP: Vty connection from 127.0.0.1
+2022/07/29 20:00:21 BGP: %NOTIFICATION: received from neighbor 2.2.2.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/29 20:00:21 BGP: %ADJCHANGE: neighbor 2.2.2.2 Down BGP Notification received
+2022/07/29 20:00:21 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/29 20:00:21 BGP: %ADJCHANGE: neighbor 3.3.3.3 Down BGP Notification received
+2022/07/29 20:00:21 BGP: Terminating on signal
+2022/07/29 20:00:21 BGP: VRF 0 is to be deleted.
+2022/07/29 20:00:21 BGP: VRF 0 is to be disabled.
+2022/07/29 20:00:23 BGP: socket: Address family not supported by protocol
+2022/07/29 20:00:23 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 5250
+2022/07/29 20:00:25 BGP: %ADJCHANGE: neighbor 2.2.2.2 Up
+2022/07/29 20:00:25 BGP: %ADJCHANGE: neighbor 3.3.3.3 Up
+2022/07/29 20:01:41 BGP: Vty connection from 127.0.0.1
+2022/07/29 20:03:11 BGP: %NOTIFICATION: received from neighbor 2.2.2.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/29 20:03:11 BGP: %ADJCHANGE: neighbor 2.2.2.2 Down BGP Notification received
+2022/07/29 20:03:11 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/29 20:03:11 BGP: %ADJCHANGE: neighbor 3.3.3.3 Down BGP Notification received
+2022/07/29 20:03:11 BGP: Terminating on signal
+2022/07/29 20:03:11 BGP: VRF 0 is to be deleted.
+2022/07/29 20:03:11 BGP: VRF 0 is to be disabled.
+2022/07/29 20:04:23 BGP: socket: Address family not supported by protocol
+2022/07/29 20:04:23 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 5500
+2022/07/29 20:04:25 BGP: %ADJCHANGE: neighbor 2.2.2.2 Up
+2022/07/29 20:04:25 BGP: %ADJCHANGE: neighbor 3.3.3.3 Up
+2022/07/29 20:04:30 BGP: Vty connection from 127.0.0.1
+2022/07/29 20:05:23 BGP: %NOTIFICATION: received from neighbor 2.2.2.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/29 20:05:23 BGP: %ADJCHANGE: neighbor 2.2.2.2 Down BGP Notification received
+2022/07/29 20:05:23 BGP: %NOTIFICATION: received from neighbor 3.3.3.3 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/29 20:05:23 BGP: %ADJCHANGE: neighbor 3.3.3.3 Down BGP Notification received
+2022/07/29 20:05:23 BGP: Terminating on signal
+2022/07/29 20:05:23 BGP: VRF 0 is to be deleted.
+2022/07/29 20:05:23 BGP: VRF 0 is to be disabled.
+2022/07/29 20:05:54 BGP: socket: Address family not supported by protocol
+2022/07/29 20:05:54 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 5682
+2022/07/29 20:05:56 BGP: Terminating on signal
+2022/07/29 20:05:56 BGP: VRF 0 is to be deleted.
+2022/07/29 20:05:56 BGP: VRF 0 is to be disabled.

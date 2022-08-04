@@ -1,0 +1,122 @@
+2022/07/27 01:32:56 BGP: socket: Address family not supported by protocol
+2022/07/27 01:32:56 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 10446
+2022/07/27 01:32:58 BGP: %ADJCHANGE: neighbor 170.10.20.2 Up
+2022/07/27 01:33:31 BGP: Vty connection from 127.0.0.1
+2022/07/27 02:53:25 BGP: Vty connection from 127.0.0.1
+2022/07/28 20:18:33 BGP: socket: Address family not supported by protocol
+2022/07/28 20:18:33 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 4326
+2022/07/28 20:18:35 BGP: %ADJCHANGE: neighbor 170.10.20.2 Up
+2022/07/28 20:20:42 BGP: Terminating on signal
+2022/07/28 20:20:42 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:20:42 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:20:42 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:20:42 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:20:42 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:20:42 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/2 (Cease/Administratively Shutdown) 0 bytes 
+2022/07/28 20:20:42 BGP: Notification sent to neighbor 170.10.20.2:0 shutdown
+2022/07/28 20:20:42 BGP: %ADJCHANGE: neighbor 170.10.20.2 Down Neighbor deleted
+2022/07/28 20:20:42 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:20:42 BGP: VRF 0 is to be deleted.
+2022/07/28 20:20:42 BGP: VRF 0 is to be disabled.
+2022/07/28 20:20:52 BGP: socket: Address family not supported by protocol
+2022/07/28 20:20:52 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 4548
+2022/07/28 20:20:53 BGP: stream_read_try: read failed on fd 12: Connection reset by peer
+2022/07/28 20:20:53 BGP: 170.10.20.2 [Error] bgp_read_packet error: Connection reset by peer
+2022/07/28 20:20:53 BGP: %ADJCHANGE: neighbor 170.10.20.2 Up
+2022/07/28 20:21:10 BGP: Terminating on signal
+2022/07/28 20:21:10 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:21:10 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:21:10 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:21:10 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:21:10 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:21:10 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/2 (Cease/Administratively Shutdown) 0 bytes 
+2022/07/28 20:21:10 BGP: Notification sent to neighbor 170.10.20.2:0 shutdown
+2022/07/28 20:21:10 BGP: %ADJCHANGE: neighbor 170.10.20.2 Down Neighbor deleted
+2022/07/28 20:21:10 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:21:10 BGP: VRF 0 is to be deleted.
+2022/07/28 20:21:10 BGP: VRF 0 is to be disabled.
+2022/07/28 20:22:48 BGP: socket: Address family not supported by protocol
+2022/07/28 20:22:48 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 4726
+2022/07/28 20:22:49 BGP: %ADJCHANGE: neighbor 170.10.20.2 Up
+2022/07/28 20:23:42 BGP: Terminating on signal
+2022/07/28 20:23:42 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:23:42 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:23:42 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:23:42 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:23:42 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:23:42 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/2 (Cease/Administratively Shutdown) 0 bytes 
+2022/07/28 20:23:42 BGP: Notification sent to neighbor 170.10.20.2:0 shutdown
+2022/07/28 20:23:42 BGP: %ADJCHANGE: neighbor 170.10.20.2 Down Neighbor deleted
+2022/07/28 20:23:42 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:23:42 BGP: VRF 0 is to be deleted.
+2022/07/28 20:23:42 BGP: VRF 0 is to be disabled.
+2022/07/28 20:23:43 BGP: socket: Address family not supported by protocol
+2022/07/28 20:23:43 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 4915
+2022/07/28 20:23:45 BGP: %ADJCHANGE: neighbor 170.10.20.2 Up
+2022/07/28 20:24:08 BGP: Terminating on signal
+2022/07/28 20:24:08 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:24:08 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:24:08 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:24:08 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:24:08 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:24:08 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/2 (Cease/Administratively Shutdown) 0 bytes 
+2022/07/28 20:24:08 BGP: Notification sent to neighbor 170.10.20.2:0 shutdown
+2022/07/28 20:24:08 BGP: %ADJCHANGE: neighbor 170.10.20.2 Down Neighbor deleted
+2022/07/28 20:24:08 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:24:08 BGP: VRF 0 is to be deleted.
+2022/07/28 20:24:08 BGP: VRF 0 is to be disabled.
+2022/07/28 20:24:26 BGP: socket: Address family not supported by protocol
+2022/07/28 20:24:26 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 5087
+2022/07/28 20:24:28 BGP: %ADJCHANGE: neighbor 170.10.20.2 Up
+2022/07/28 20:27:49 BGP: Terminating on signal
+2022/07/28 20:27:49 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:27:49 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:27:49 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:27:49 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:27:49 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:27:49 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/2 (Cease/Administratively Shutdown) 0 bytes 
+2022/07/28 20:27:49 BGP: Notification sent to neighbor 170.10.20.2:0 shutdown
+2022/07/28 20:27:49 BGP: %ADJCHANGE: neighbor 170.10.20.2 Down Neighbor deleted
+2022/07/28 20:27:49 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:27:49 BGP: VRF 0 is to be deleted.
+2022/07/28 20:27:49 BGP: VRF 0 is to be disabled.
+2022/07/28 20:27:50 BGP: socket: Address family not supported by protocol
+2022/07/28 20:27:50 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 5281
+2022/07/28 20:27:52 BGP: %ADJCHANGE: neighbor 170.10.20.2 Up
+2022/07/28 20:31:48 BGP: Terminating on signal
+2022/07/28 20:31:48 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:31:48 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:31:48 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:31:48 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:31:48 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:31:48 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/2 (Cease/Administratively Shutdown) 0 bytes 
+2022/07/28 20:31:48 BGP: Notification sent to neighbor 170.10.20.2:0 shutdown
+2022/07/28 20:31:48 BGP: %ADJCHANGE: neighbor 170.10.20.2 Down Neighbor deleted
+2022/07/28 20:31:48 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:31:48 BGP: VRF 0 is to be deleted.
+2022/07/28 20:31:48 BGP: VRF 0 is to be disabled.
+2022/07/28 20:32:11 BGP: socket: Address family not supported by protocol
+2022/07/28 20:32:11 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 5523
+2022/07/28 20:32:13 BGP: %ADJCHANGE: neighbor 170.10.20.2 Up
+2022/07/28 20:34:00 BGP: Terminating on signal
+2022/07/28 20:34:00 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:34:00 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:34:00 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/07/28 20:34:00 BGP: Notification sent to neighbor 170.10.20.2:0: type 6/3
+2022/07/28 20:34:00 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:34:00 BGP: %NOTIFICATION: sent to neighbor 170.10.20.2 6/2 (Cease/Administratively Shutdown) 0 bytes 
+2022/07/28 20:34:00 BGP: Notification sent to neighbor 170.10.20.2:0 shutdown
+2022/07/28 20:34:00 BGP: %ADJCHANGE: neighbor 170.10.20.2 Down Neighbor deleted
+2022/07/28 20:34:00 BGP: sendmsg_nexthop: Can't send NH register, Zebra client not established
+2022/07/28 20:34:00 BGP: VRF 0 is to be deleted.
+2022/07/28 20:34:00 BGP: VRF 0 is to be disabled.
+2022/07/28 20:34:03 BGP: socket: Address family not supported by protocol
+2022/07/28 20:34:03 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 5679
+2022/07/28 20:34:05 BGP: Terminating on signal
+2022/07/28 20:34:05 BGP: VRF 0 is to be deleted.
+2022/07/28 20:34:05 BGP: VRF 0 is to be disabled.
+2022/07/28 20:34:39 BGP: socket: Address family not supported by protocol
+2022/07/28 20:34:39 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 5862
+2022/07/28 20:34:41 BGP: %ADJCHANGE: neighbor 170.10.20.2 Up
+2022/07/28 20:36:47 BGP: Vty connection from 127.0.0.1
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
