@@ -1,0 +1,21 @@
+2022/08/04 03:19:33 ZEBRA: Zebra 1.2.4 starting: vty@2601
+2022/08/04 03:19:33 ZEBRA: client 12 says hello and bids fair to announce only bgp routes
+2022/08/04 03:19:33 ZEBRA: Try to set TE Link Param
+2022/08/04 03:19:33 ZEBRA: Try to set TE Link Param
+2022/08/04 03:21:13 ZEBRA: client 12 disconnected. 0 bgp routes removed from the rib
+2022/08/04 03:21:13 ZEBRA: Terminating on signal
+2022/08/04 03:21:13 ZEBRA: IRDP: Received shutdown notification.
+2022/08/04 03:27:21 ZEBRA: Zebra 1.2.4 starting: vty@2601
+2022/08/04 03:27:21 ZEBRA: client 12 says hello and bids fair to announce only bgp routes
+2022/08/04 03:27:21 ZEBRA: Try to set TE Link Param
+2022/08/04 03:27:21 ZEBRA: Try to set TE Link Param
+2022/08/04 03:28:55 ZEBRA: client 12 disconnected. 0 bgp routes removed from the rib
+2022/08/04 03:28:55 ZEBRA: Terminating on signal
+2022/08/04 03:28:55 ZEBRA: IRDP: Received shutdown notification.
+2022/08/04 03:29:41 ZEBRA: Zebra 1.2.4 starting: vty@2601
+2022/08/04 03:29:41 ZEBRA: client 12 says hello and bids fair to announce only bgp routes
+2022/08/04 03:29:41 ZEBRA: Try to set TE Link Param
+2022/08/04 03:29:41 ZEBRA: Try to set TE Link Param
+2022/08/04 03:30:45 ZEBRA: client 12 disconnected. 0 bgp routes removed from the rib
+2022/08/04 03:30:45 ZEBRA: Terminating on signal
+2022/08/04 03:30:45 ZEBRA: IRDP: Received shutdown notification.

@@ -1,0 +1,123 @@
+2022/08/02 00:16:33 BGP: socket: Address family not supported by protocol
+2022/08/02 00:16:33 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 3531
+2022/08/02 00:16:35 BGP: %ADJCHANGE: neighbor 10.0.4.1 Up
+2022/08/02 00:16:35 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:16:35 BGP: Notification sent to neighbor 20.0.4.2:48576 shutdown
+2022/08/02 00:16:35 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:16:38 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:16:38 BGP: Notification sent to neighbor 20.0.4.2:48578 shutdown
+2022/08/02 00:16:38 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:16:43 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:16:43 BGP: Notification sent to neighbor 20.0.4.2:48584 shutdown
+2022/08/02 00:16:43 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:16:47 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:16:47 BGP: Notification sent to neighbor 20.0.4.2:48588 shutdown
+2022/08/02 00:16:47 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:16:53 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:16:53 BGP: Notification sent to neighbor 20.0.4.2:48592 shutdown
+2022/08/02 00:16:53 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:17:02 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:17:02 BGP: Notification sent to neighbor 20.0.4.2:48598 shutdown
+2022/08/02 00:17:02 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:17:28 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:17:28 BGP: Notification sent to neighbor 20.0.4.2:48610 shutdown
+2022/08/02 00:17:28 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:18:20 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:18:20 BGP: Notification sent to neighbor 20.0.4.2:48634 shutdown
+2022/08/02 00:18:20 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:19:45 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:19:45 BGP: Notification sent to neighbor 20.0.4.2:48674 shutdown
+2022/08/02 00:19:45 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:20:26 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:20:26 BGP: Notification sent to neighbor 20.0.4.2:48692 shutdown
+2022/08/02 00:20:26 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:21:27 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:21:27 BGP: Notification sent to neighbor 20.0.4.2:48722 shutdown
+2022/08/02 00:21:27 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:22:12 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:22:12 BGP: Notification sent to neighbor 20.0.4.2:48764 shutdown
+2022/08/02 00:22:12 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:23:10 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:23:10 BGP: Notification sent to neighbor 20.0.4.2:48790 shutdown
+2022/08/02 00:23:10 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:24:40 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:24:40 BGP: Notification sent to neighbor 20.0.4.2:48832 shutdown
+2022/08/02 00:24:40 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:25:55 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:25:55 BGP: Notification sent to neighbor 20.0.4.2:48866 shutdown
+2022/08/02 00:25:55 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:26:31 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:26:31 BGP: Notification sent to neighbor 20.0.4.2:48884 shutdown
+2022/08/02 00:26:31 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:27:42 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:27:42 BGP: Notification sent to neighbor 20.0.4.2:48916 shutdown
+2022/08/02 00:27:42 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:28:44 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:28:44 BGP: Notification sent to neighbor 20.0.4.2:48942 shutdown
+2022/08/02 00:28:44 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:29:15 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:29:15 BGP: Notification sent to neighbor 20.0.4.2:48956 shutdown
+2022/08/02 00:29:15 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:30:06 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:30:06 BGP: Notification sent to neighbor 20.0.4.2:48980 shutdown
+2022/08/02 00:30:06 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:31:34 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:31:34 BGP: Notification sent to neighbor 20.0.4.2:49024 shutdown
+2022/08/02 00:31:34 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:32:22 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:32:22 BGP: Notification sent to neighbor 20.0.4.2:49046 shutdown
+2022/08/02 00:32:22 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:33:39 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:33:39 BGP: Notification sent to neighbor 20.0.4.2:49078 shutdown
+2022/08/02 00:33:39 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:34:18 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:34:18 BGP: Notification sent to neighbor 20.0.4.2:49096 shutdown
+2022/08/02 00:34:18 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:35:31 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:35:31 BGP: Notification sent to neighbor 20.0.4.2:49126 shutdown
+2022/08/02 00:35:31 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:36:15 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:36:15 BGP: Notification sent to neighbor 20.0.4.2:49152 shutdown
+2022/08/02 00:36:15 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:37:43 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:37:43 BGP: Notification sent to neighbor 20.0.4.2:49190 shutdown
+2022/08/02 00:37:43 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:38:44 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:38:44 BGP: Notification sent to neighbor 20.0.4.2:49216 shutdown
+2022/08/02 00:38:44 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:39:40 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:39:40 BGP: Notification sent to neighbor 20.0.4.2:49240 shutdown
+2022/08/02 00:39:40 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:40:35 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:40:35 BGP: Notification sent to neighbor 20.0.4.2:49268 shutdown
+2022/08/02 00:40:35 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:41:52 BGP: %NOTIFICATION: sent to neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:41:52 BGP: Notification sent to neighbor 20.0.4.2:49310 shutdown
+2022/08/02 00:41:52 BGP: %NOTIFICATION: received from neighbor 20.0.4.2 2/2 (OPEN Message Error/Bad Peer AS) 2 bytes 01 90
+2022/08/02 00:42:04 BGP: %NOTIFICATION: received from neighbor 10.0.4.1 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/08/02 00:42:04 BGP: %ADJCHANGE: neighbor 10.0.4.1 Down BGP Notification received
+2022/08/02 00:42:04 BGP: Terminating on signal
+2022/08/02 00:42:04 BGP: VRF 0 is to be deleted.
+2022/08/02 00:42:04 BGP: VRF 0 is to be disabled.
+2022/08/02 00:42:07 BGP: socket: Address family not supported by protocol
+2022/08/02 00:42:07 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 4210
+2022/08/02 00:42:08 BGP: %ADJCHANGE: neighbor 10.0.4.1 Up
+2022/08/02 00:42:08 BGP: %ADJCHANGE: neighbor 20.0.4.1 Up
+2022/08/02 00:45:49 BGP: %NOTIFICATION: received from neighbor 10.0.4.1 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/08/02 00:45:49 BGP: %ADJCHANGE: neighbor 10.0.4.1 Down BGP Notification received
+2022/08/02 00:45:49 BGP: %NOTIFICATION: received from neighbor 20.0.4.1 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/08/02 00:45:49 BGP: %ADJCHANGE: neighbor 20.0.4.1 Down BGP Notification received
+2022/08/02 00:45:49 BGP: Terminating on signal
+2022/08/02 00:45:49 BGP: VRF 0 is to be deleted.
+2022/08/02 00:45:49 BGP: VRF 0 is to be disabled.
+2022/08/02 00:46:30 BGP: socket: Address family not supported by protocol
+2022/08/02 00:46:30 BGP: BGPd 1.2.4 starting: vty@2605, bgp@<all>:179 pid 4627
+2022/08/02 00:46:31 BGP: %ADJCHANGE: neighbor 10.0.4.1 Up
+2022/08/02 00:46:31 BGP: %ADJCHANGE: neighbor 20.0.4.1 Up
+2022/08/02 00:53:21 BGP: %NOTIFICATION: received from neighbor 10.0.4.1 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/08/02 00:53:21 BGP: %ADJCHANGE: neighbor 10.0.4.1 Down BGP Notification received
+2022/08/02 00:53:21 BGP: %NOTIFICATION: received from neighbor 20.0.4.1 6/3 (Cease/Peer Unconfigured) 0 bytes 
+2022/08/02 00:53:21 BGP: %ADJCHANGE: neighbor 20.0.4.1 Down BGP Notification received
+2022/08/02 00:53:21 BGP: Terminating on signal
+2022/08/02 00:53:21 BGP: VRF 0 is to be deleted.
+2022/08/02 00:53:21 BGP: VRF 0 is to be disabled.
