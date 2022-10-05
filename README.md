@@ -3,4 +3,4 @@
 
 Note: Don't forget to change the absolute paths in `init_mininet.py` `bgpd.conf` and `zebra.conf`
 
-Note: Don't forget to give permission for the user to create files
+Note: Don't forget to give permission for the user to create and modify files
