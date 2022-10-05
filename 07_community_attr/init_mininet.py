@@ -8,7 +8,7 @@ from mininet.cli import CLI
 import time
 import os
 
-DIRPREFIX='/home/mininet/git_workspace/07_community_attr' 
+DIRPREFIX='/home/mininet/git_workspace/bgp_cases/07_community_attr' 
 #NOTE: if using relative path, there would be error when creating .pid and .api files
 
 def prefix(address, length):

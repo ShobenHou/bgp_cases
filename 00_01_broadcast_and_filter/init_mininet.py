@@ -9,7 +9,7 @@ import time
 import os
 
 N = 4
-DIRPREFIX='/home/mininet/git_workspace/00_01_broadcast_and_filter' 
+DIRPREFIX='/home/mininet/git_workspace/bgp_cases/00_01_broadcast_and_filter' 
 #NOTE: if using relative path, there would be error when creating .pid and .api files
 
 def prefix(address, length):
