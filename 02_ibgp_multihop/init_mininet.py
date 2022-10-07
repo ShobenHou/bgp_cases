@@ -92,6 +92,7 @@ class NetworkTopo( Topo ):
     def build( self, **_opts ):
         
         r1_eth1 = '129.213.1.1'
+        r1_eth2 = '170.10.0.1'
 
         r2_eth1 = '129.213.1.2'
         r2_eth2 = '175.220.212.1'
@@ -103,7 +104,8 @@ class NetworkTopo( Topo ):
 
         r5_eth1 = '175.220.212.2'
         r5_eth2 = '175.220.1.1'
-
+        
+        h1_eth0 = '170.10.0.2'
 
         r1 = self.addNode('r1', cls=LinuxRouter, ip=prefix(r1_eth1, 24))
         r2 = self.addNode('r2', cls=LinuxRouter, ip=prefix(r2_eth1, 24))
@@ -111,7 +113,7 @@ class NetworkTopo( Topo ):
         r4 = self.addNode('r4', cls=LinuxRouter, ip=prefix(r4_eth1, 24))
 
         r5 = self.addNode('r5', cls=LinuxRouter, ip=prefix(r5_eth1, 24))
-
+        h1 = self.addHost('h1', ip=prefix(h1_eth0, 24), defaultRoute='via {}'.format(r1_eth2))
         self.addLink(r1, r2,
                      intfName1='r1-eth1', params1={'ip': prefix(r1_eth1, 24)},
                      intfName2='r2-eth1', params2={'ip': prefix(r2_eth1, 24)})
@@ -127,7 +129,7 @@ class NetworkTopo( Topo ):
                      intfName1='r5-eth2', params1={'ip': prefix(r5_eth2, 24)},
                      intfName2='r3-eth2', params2={'ip': prefix(r3_eth2, 24)})        
         
-	
+        self.addLink(h1,r1,intfName2='r1-eth2',params2={ 'ip' : prefix(r1_eth2, 24)})
 
 def run():
     "Test linux router"
