@@ -76,19 +76,32 @@ class NetworkTopo( Topo ):
     def build( self, **_opts ):
 
         r1_eth1 = '170.10.0.1'
-        r1_eth2 = '1.1.1.1'
+        #r1_eth2 = '1.1.1.1'
+        r1_eth2 = '13.13.13.1'
+        #r1_eth3 = '1.1.1.2'
+        #h1_eth1 = '1.1.1.1'
 
         r2_eth1 = '170.10.0.2'
-        r2_eth2 = '3.3.3.4'
+        #r2_eth2 = '3.3.3.4'
+        r2_eth2 = '24.24.24.1'
 
-        r3_eth1 = '1.1.1.2'
-        r3_eth2 = '128.213.11.1'
+        #r3_eth1 = '1.1.1.2'
+        r3_eth1 = '13.13.13.2'
+        #r3_eth2 = '128.213.11.1'
+        r3_eth2 = '34.34.34.1'
 
-        r4_eth1 = '3.3.3.3'
-        r4_eth2 = '128.213.11.2'
-        r4_eth3 = '5.5.5.5'
+        #r4_eth1 = '3.3.3.3'
+        r4_eth1 = '24.24.24.2'
+        #r4_eth2 = '128.213.11.2'
+        r4_eth2 = '34.34.34.2'
+        #r4_eth3 = '5.5.5.5'
+        r4_eth3 = '45.45.45.1'
 
-        r5_eth1 = '5.5.5.4'
+        #r5_eth1 = '5.5.5.4'
+        r5_eth1 = '45.45.45.2'
+
+        s1_eth1 = '170.10.0.11'
+        s1_eth2 = '170.10.0.22'
 
 
         r1 = self.addNode( 'r1', cls=LinuxRouter, ip=prefix(r1_eth1, 24)) 
@@ -96,24 +109,22 @@ class NetworkTopo( Topo ):
         r3 = self.addNode( 'r3', cls=LinuxRouter, ip=prefix(r3_eth1, 24))
         r4 = self.addNode( 'r4', cls=LinuxRouter, ip=prefix(r4_eth1, 24))
         r5 = self.addNode( 'r5', cls=LinuxRouter, ip=prefix(r5_eth1, 24))
-
+        #h1 = self.addHost( 'h1', ip=prefix(h1_eth1, 24), defaultRoute='via {}'.format(r1_eth3)) 
+        
+        s1 = self.addSwitch('s1', ip=prefix(s1_eth1,24))
         '''
-        s1_eth1 = '128.213.11.1'
-        s1_eth2 = '128.213.11.4'
-        s2_eth1 = '170.10.0.3'
-        s2_eth2 = '170.10.0.4'
-        s1 = self.addSwitch('s1', ip=prefix(s1_eth1, 24))
-        s2 = self.addSwitch('s2', ip=prefix(s2_eth2, 24))
-        '''
-
         self.addLink(r1, r2,
                      intfName1='r1-eth1', params1={'ip': prefix(r1_eth1, 24)},
                      intfName2='r2-eth1', params2={'ip': prefix(r2_eth1, 24)})
         '''
-        self.addLink(s2, r2,
-                     intfName1='s2-eth2', params1={'ip': prefix(s2_eth2, 24)},
-                     intfName2='r2-eth1', params2={'ip': prefix(r2_eth1, 24)})
-        '''
+        self.addLink(r1, s1,
+                     intfName1='r1-eth1', params1={'ip': prefix(r1_eth1, 24)},
+                     intfName2='s1-eth1', params2={'ip': prefix(s1_eth1, 24)})
+
+        self.addLink(r2, s1,
+                     intfName1='r2-eth1', params1={'ip': prefix(r2_eth1, 24)},
+                     intfName2='s1-eth2', params2={'ip': prefix(s1_eth2, 24)})               
+
         self.addLink(r3, r1,
                      intfName1='r3-eth1', params1={'ip': prefix(r3_eth1, 24)},
                      intfName2='r1-eth2', params2={'ip': prefix(r1_eth2, 24)})
@@ -124,21 +135,17 @@ class NetworkTopo( Topo ):
         self.addLink(r3, r4,
                      intfName1='r3-eth2', params1={'ip': prefix(r3_eth2, 24)},
                      intfName2='r4-eth2', params2={'ip': prefix(r4_eth2, 24)})
-        '''
-        self.addLink(s1, r3,
-                     intfName1='s1-eth1', params1={'ip': prefix(s1_eth1, 24)},
-                     intfName2='r3-eth2', params2={'ip': prefix(r3_eth2, 24)})
-        self.addLink(s1, r4,
-                     intfName1='s1-eth2', params1={'ip': prefix(s1_eth2, 24)},
-                     intfName2='r4-eth2', params2={'ip': prefix(r4_eth2, 24)})
-        '''
+
 
 
         self.addLink(r5, r4,
                      intfName1='r5-eth1', params1={'ip': prefix(r5_eth1, 24)},
                      intfName2='r4-eth3', params2={'ip': prefix(r4_eth3, 24)})
-      
-	
+        '''
+        self.addLink(r1, h1,
+                     intfName1='r1-eth3', params1={'ip': prefix(r1_eth3, 24)},
+                     intfName2='h1-eth1', params2={'ip': prefix(h1_eth1, 24)})        
+        '''
 
 def run():
     "Test linux router"
@@ -156,22 +163,7 @@ def run():
     print('BGPnodelist:', BGPnodelist)
 
 
-    '''
-    # now we build zebra.conf
-    zconflist = []
-    # Create "zebra.conf" file for each router 
-    for r in BGPnodelist:
-        zconf = create_zebra_conf(r, ndict) 
-        zconflist.append(zconf)
-    '''
-    '''
-    bgpconflist = []    
-    # Create "bgpd.conf" file for each router
-    for r in BGPnodelist:
-        bgpconf = create_bgpd_conf(r, ndict, addrdict, ASdict) 
-        bgpconflist.append(bgpconf)
-    '''
- 
+
     info('starting zebra and bgpd service:\n')
     for r in BGPnodelist:
         start_zebra(r)
@@ -196,16 +188,7 @@ def run():
         stop_zebra(r)
 
     net.stop()
-    '''
-    for zconf in zconflist:
-        print('removing file {}'.format(zconf))
-        os.remove(zconf)
-    '''
-    '''
-    for bgpconf in bgpconflist:
-        print('removing file {}'.format(bgpconf))
-        os.remove(bgpconf)
-    '''
+
     os.system('stty erase {}'.format(chr(8)))
 
 if __name__ == '__main__':
